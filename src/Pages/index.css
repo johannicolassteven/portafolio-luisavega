@@ -41,13 +41,14 @@ button {
 
 @media (max-width: 768px) {
   
-  .card-container {
-    justify-content: center;
-    min-width: 500px;
-    margin: 4rem 2rem;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
+  
+ .card-container {
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  justify-content: center;
   }
+
 
   .navbar {
     padding: 1rem;
@@ -113,4 +114,8 @@ ul {
 .links {
   margin: 0 3rem;
   gap: 3rem;
+  max-height: 40px;
+}
+.Footer{
+  padding: 20px 0;
 }

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 left-0 w-full bg-pink-200 text-pink-900 py-8 shadow-inner">
-      <div className="flex flex-col md:flex-row justify-between items-center w-full px-8">
+    <footer className="fixed bottom-0 left-0 w-full text-pink-900 shadow-inner">
+      <div className="Footer flex flex-col md:flex-row  bg-pink-200 justify-between items-center w-full px-8">
         {/* Texto principal */}
         <p className="text-sm mb-4 md:mb-0 text-center md:text-left">
           © {new Date().getFullYear()} MiPortafolio — Todos los derechos
